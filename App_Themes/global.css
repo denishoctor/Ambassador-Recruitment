@@ -239,7 +239,7 @@ margin: 0 auto;
 #jobListing dt{margin-top:12px;font-weight:900}
 #jobListing #description{white-space:pre-wrap;width:740px;}
 /* Homepage Results */
-#homepageJobs dt{float:left;width:240px;cursor:pointer;}
+#homepageJobs dt{float:left;width:215px;cursor:pointer;}
 #homepageJobs dd{float:right;}
 /*******************************************
 CLASSES

@@ -16,9 +16,6 @@
             <h3 style="font-weight:bolder; color:White; background-color:#1f74b7; margin-bottom: -10px">&nbsp;Submit Your CV</h3>
             <p><a href="jobseekers/submitcv.aspx" style="color:Red;">Click here</a> to submit your CV now and get us on your side searching for your next position!</p>   
         </div>
-        <div style="width: 300px;">
-            <a href="http://ambassadorchocolate.eu/"><img src="images/ambassador-chocolate-logo.jpg" alt="Xocai Ambassador Chocolate" /></a>
-        </div>
         <div class="f-clear"></div>
         <h3 style="font-weight:bolder; color:White; background-color:#1f74b7;">&nbsp;Hot Jobs</h3>
         <script type="text/javascript">
