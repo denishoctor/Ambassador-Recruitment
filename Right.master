@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true" CodeFile="Right.master.cs" Inherits="Right2" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Main" Runat="Server">
+    <div id="strip">
+	    <a id="search" href="/jobseekers/joblistings.aspx" class="bold">
+	    </a>
+	    <p id="breadcrumbs">
+            <asp:sitemappath ID="Sitemappath1" runat="server"></asp:sitemappath>
+        </p>
+    </div>
+    <!-- sidebar ends here-->
+    <div id="main">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder_Text" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="f-clear"></div>
+    <asp:Panel runat="server" ID="FooterImages" CssClass="ImagePanel" >
+        <asp:Image runat="server" ID="Image1" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+        <asp:Image runat="server" ID="Image2" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+        <asp:Image runat="server" ID="Image3" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+        <asp:Image runat="server" ID="Image4" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+        <asp:Image runat="server" ID="Image5" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+        <asp:Image runat="server" ID="Image6" CssClass="border" Width="115" Height="115" AlternateText="Catering Image" />
+    </asp:Panel>
+    <!-- main ends here-->
+</asp:Content>
+

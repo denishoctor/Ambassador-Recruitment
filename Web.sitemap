@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title=""  description="">
+    <siteMapNode url="Default.aspx" title="Home"  description="Ambassador Recruitment - Home" />
+    <siteMapNode url="jobseekers.aspx" title="Jobseekers"  description="Ambassador Recruitment - Jobseekers">
+      <siteMapNode url="jobseekers/submitcv.aspx" title="Submit CV"  description="Ambassador Recruitment - Jobseekers - Submit CV" />
+      <siteMapNode url="jobseekers/cvtips.aspx" title="CV/Interview Tips"  description="Ambassador Recruitment - Jobseekers - CV and Interview Tips" />
+      <siteMapNode url="jobseekers/joblistings.aspx" title="Job Listings"  description="Ambassador Recruitment - Jobseekers - Job Listings" />
+      <siteMapNode url="jobseekers/cruiselines.aspx" title="Cruise Lines"  description="Ambassador Recruitment - Jobseekers - Cruise Lines" />
+    </siteMapNode>
+    <siteMapNode url="employers.aspx" title="Employers"  description="Ambassador Recruitment - Employers">
+      <siteMapNode url="employers/services.aspx" title="Client Services"  description="Ambassador Recruitment - Employers - Client Services" />
+    </siteMapNode>
+    <siteMapNode url="Associates.aspx" title="Associates"  description="Ambassador Recruitment - Associates" />
+    <siteMapNode url="team.aspx" title="Team"  description="Ambassador Recruitment - Team" />
+    <siteMapNode url="contactus.aspx" title="Contact"  description="Ambassador Recruitment - Contact Us" />
+  </siteMapNode>
+</siteMap>

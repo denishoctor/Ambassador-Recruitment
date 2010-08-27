@@ -1,0 +1,309 @@
+/*****************************************************
+WEBSITE: http://ambassador-recruit.com
+****************************************************/
+
+/*******************************************
+HTML ELEMENTS
+*******************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-weight: inherit;
+font-style: inherit;
+font-size: 100%;
+font-family: inherit;
+vertical-align: baseline;
+}
+
+body {
+font: .80em/1.9em Verdana, Tahoma, Helvetica, sans-serif;
+color: #1576BD;
+text-align: left;
+background: url(../images/bg_hor.gif) repeat-x #f1f0ec;
+}
+/* links */
+a {
+color: #4284B0;
+background-color: inherit;
+text-decoration: none;
+font-weight: bold;
+}
+a:hover {
+color: #9EC068;
+background-color: inherit;
+}
+.HeaderFooter
+{
+    background-color: #0066CC;
+    color: #ffFFFF;
+    font-weight: normal;
+}
+.HeaderFooter a:link
+{
+    color: #00FFFF; 
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* headers */
+h1, h2, h3 {
+font: bold 1em 'Trebuchet MS', Arial, Sans-serif;
+color: #1576bd;
+}
+h1 { font-size: 1.5em; }
+h2 { font-size: 1.2em; }
+h3 { font-size: 1.0em; }
+
+/* body format */
+p, h1, h2, h3 {
+margin: 10px 1px;
+}
+p {
+line-height: 16px;
+margin: 20px 1px;
+}
+ul {
+padding: 5px 5px 10px 20px;
+list-style: none;
+}
+li {
+padding-top: 3px;
+}
+ul.links {
+list-style: none;
+margin:10px 0 10px 15px;
+padding:0;
+}
+ul.cruise li {
+margin-bottom: 50px;
+}
+ul.other li {
+margin-bottom: 50px;
+}
+ul.clients li {
+margin-bottom: 75px;
+}
+ul.aboutus {
+list-style: none;
+margin:10px 0 10px 15px;
+padding:0;
+}
+ul.aboutus li {
+margin-bottom: 60px;
+}
+
+/* images */
+img {
+border: none;
+margin: 0px auto;
+}
+.border {
+border: 2px solid #CCC;
+padding: 1px;
+margin: 1px;
+}
+.randomimages {
+margin-top: 10px;
+width:760px;
+}
+img.float-right {
+margin: 5px 0px 5px 15px;
+}
+img.float-left {
+margin: 5px 15px 5px 0px;
+}
+
+/*******************************************
+LAYOUT
+*******************************************/
+div#wrap {
+width: 800px;
+margin: 0px auto;
+margin-top: 15px;
+padding: 5px;
+text-align: left;
+border: solid 2px #cee1f0;
+background-color: #FFF;
+}
+
+div#header {
+width: 100%;
+height: 232px;
+background: url(../images/header.jpg) no-repeat;
+}
+
+div#content-wrap {
+background: url(../images/content_wrap_bg.jpg) 0 0 no-repeat;
+width: 800px;
+clear: both;
+}
+div.ImagePanel 
+{
+ margin-left: 30px;
+}
+
+/* Strip */
+#strip {
+padding:2px 10px 4px 10px;
+color:#1576bd;
+}
+#strip p {
+margin:0;
+}
+#strip a {
+color:#1576bd;
+}
+#strip a:hover {
+color:#192666;
+}
+
+/* Strip - breadcrumbs */
+#strip #breadcrumbs {
+width:485px;
+margin:0;
+padding:0;
+}
+
+/* Strip - RSS */
+#strip #search {
+background:url("../images/btn_search.gif") no-repeat scroll left top transparent;
+color:#FFFFFF;
+float:right;
+height:20px;
+margin:1px 0 0;
+width:136px;
+}
+
+#sideandmainwrap {
+clear:both;
+}
+
+div#main {
+width: 770px;
+min-height: 50px;
+padding: 30px 5px 5px 20px;
+}
+
+div#sidebar
+{
+position: relative;
+line-height: 16px;
+float: right;
+width: 278px;
+height: 350px;
+padding: 30px 15px 10px 0px;
+}
+
+div#footer {
+width: 100%;
+background: url(../images/rline.gif) no-repeat top right;
+}
+div#site-designer {
+width: 800px;
+margin: 0 auto;
+}
+#joblist {
+    width: 100%;
+    height: 550px;
+}
+/* Submit CV Form */
+.basix {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.header1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #006699;
+}
+.lgHeader1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0066CC;
+	background-color: #CEE9FF;
+}
+/*Search Results*/
+#jobs tr{cursor:pointer;}
+/* Job Details */
+#jobListing dt{margin-top:12px;font-weight:900}
+#jobListing #description{white-space:pre-wrap;width:740px;}
+/* Homepage Results */
+#homepageJobs dt{float:left;width:240px;cursor:pointer;}
+#homepageJobs dd{float:right;}
+/*******************************************
+CLASSES
+*******************************************/
+/* Quick Search */
+.search-box {
+padding-left:120px;
+
+}
+
+/* Sidebar */
+#sidebar ul.sidemenu {
+list-style: none;
+margin:10px 0 10px 15px;
+padding:0;
+}
+#sidebar ul.sidemenu li {
+margin-bottom:1px;
+}
+/* About Us */
+.aboutusdrop {
+height: 125px;
+}
+
+/* Floating */
+.f-left {
+float: left;
+}
+.f-right {
+float: right;
+}
+.f-clear {
+clear: both;
+}
+
+/* Text alignment */
+.t-left {
+text-align: left;
+}
+.t-center {
+text-align: center;
+}
+.t-right {
+text-align: right;
+}
+
+/* Text Sizing */
+.t-small {
+font-size: 80%;
+}
+
+/* Text Other */
+.bold {
+font-weight: bold;
+}
+.italics {
+font-style: italic;
+}
+.red {
+color: Red;
+}
+#singlecolumnpadding {
+padding: 30px 20px 10px 20px;
+}
+#contact {
+padding-left: 50px;
+}

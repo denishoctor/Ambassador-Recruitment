@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<category>
+  <category display="-- Job Category --" value="Job Category"></category>
+  <category display="Accommodation" value="1"></category>
+  <category display="Food &amp; Beverage" value="2"></category>
+  <category display="Finance/Admin" value="32"></category>
+  <category display="Front of House" value="17"></category>
+  <category display="Kitchen" value="33"></category>
+  <category display="Leisure" value="21"></category>
+  <category display="Management" value="23"></category>
+  <category display="Sales &amp; Marketing" value="31"></category>
+</category>
+
